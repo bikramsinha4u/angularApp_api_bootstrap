@@ -1,4 +1,4 @@
-Steps to run the app::
+# Steps to run the app::
 
 Install node.js
 https://nodejs.org/en/
