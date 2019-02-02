@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="row">
+    <div class="table-responsive">          
+	  <table class="table table-bordered table-striped table-hover">
+		<thead>
+			<tr>
+				<th scope="col" *ngFor="let item of headers">{{item}}</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr *ngFor="let item of json.nodes">
+				<th scope="row">{{item.id}}</th>
+				<td>{{item.System}}</td>
+				<td>{{item.type}}</td>
+				<td 
+title="SuperHero : {{item.realms.superHero}} 
+Wife : {{item.realms.wife}}
+Weapon : {{item.realms.weapon}}
+FavColor : {{item.realms.favColor}}">
+					{{item.realms.city}}
+				</td>
+				<td>{{item.basic}}</td>
+				<td>{{item.open}}</td>
+				<td>
+          <a href="{{item.href}}" target="_blank" class="btn btn-primary" role="button">{{item.nodeKey}}</a>
+          </td>
+			</tr>
+		</tbody>
+	  </table>
+	</div>
+  </div>
+</div>
