@@ -8,21 +8,23 @@ npm install -g @angular/cli <br />
 
 3. Download the project from git repo. <br />
 
-4. go to your project code directory <br />
+4. Go to your project code directory <br />
 cd [directory path] <br />
 example: cd C:\my-app\anguarApp\angularApp_api_bootstrap <br />
 
-5. execute <br />
+5. Execute <br />
 npm install <br />
 
-6. execute <br />
+6. Execute <br />
 ng build <br />
 
-7. execute <br />
+7. Execute <br />
 ng serve --open <br />
 
-8. wait for the browser to open or go to the url <br />
+8. Wait for the browser to open or go to the url <br />
 http://localhost:4200/
+
+9. Done
 
 
 
