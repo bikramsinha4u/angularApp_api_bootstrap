@@ -6,26 +6,22 @@ https://nodejs.org/en/ <br />
 2. Install Angular CLI <br />
 npm install -g @angular/cli <br />
 
-Download the project from git repo. <br />
+3. Download the project from git repo. <br />
 
-*for the following steps, use cmd admin mode <br />
-
-go to your project code directory <br />
+4. go to your project code directory <br />
 cd [directory path] <br />
 example: cd C:\my-app\anguarApp\angularApp_api_bootstrap <br />
 
-*for the following instruction use cmd admin mode <br />
-
-execute <br />
+5. execute <br />
 npm install <br />
 
-execute <br />
+6. execute <br />
 ng build <br />
 
-execute <br />
+7. execute <br />
 ng serve --open <br />
 
-wait for the browser to open or go to the url <br />
+8. wait for the browser to open or go to the url <br />
 http://localhost:4200/
 
 
