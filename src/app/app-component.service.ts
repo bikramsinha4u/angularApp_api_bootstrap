@@ -7,6 +7,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class AppComponentService {
   jsonApiUrl: string = 'https://api.myjson.com/bins/114l3c';
+  
   constructor(private http: HttpClient) { }
   
   getJsonData(){

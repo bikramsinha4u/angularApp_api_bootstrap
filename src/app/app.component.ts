@@ -17,6 +17,7 @@ export class AppComponent{
   ngOnInit() {
     this.getJsonData();
   }
+  
   getJsonData(){
 	  this.appComponentService.getJsonData().subscribe((result: any) => {
 		  if(result){
