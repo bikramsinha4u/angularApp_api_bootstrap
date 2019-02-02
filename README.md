@@ -1,3 +1,59 @@
+Steps to run the app::
+
+Install node.js
+https://nodejs.org/en/
+
+Install the Angular CLI
+npm install -g @angular/cli
+
+Download the project from git repo.
+
+*for the following steps, use cmd admin mode
+
+go to your project code directory
+cd [directory path]
+example: cd C:\my-app\anguarApp\angularApp_api_bootstrap 
+
+*for the following instruction use cmd admin mode
+
+execute
+npm install
+
+execute
+ng build
+
+execute
+ng serve --open 
+
+wait for the browser to open or go to the url
+http://localhost:4200/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # MyApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.0.
